@@ -1,0 +1,328 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_COLORBOX DIALOG DISCARDABLE  0, 0, 186, 69
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请输入一个颜色"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,129,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,129,24,50,14
+    EDITTEXT        IDC_COLOR_R,13,41,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COLOR_G,53,41,28,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COLOR_B,91,41,27,12,ES_AUTOHSCROLL
+    LTEXT           "r",IDC_STATIC,21,33,8,8
+    LTEXT           "g",IDC_STATIC,60,33,8,8
+    LTEXT           "b",IDC_STATIC,98,33,8,8
+    LTEXT           "请输入颜色,颜色范围 0.0~1.0",IDC_STATIC,27,14,68,16
+END
+
+IDD_DEFAULTWIDTH DIALOG DISCARDABLE  0, 0, 164, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请输入要设置的宽度,最好在1.0~10.0以内"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,22,35,50,14
+    PUSHBUTTON      "取消",IDCANCEL,83,35,50,14
+    EDITTEXT        IDC_DEFAULTWIDTH,57,13,40,15,ES_AUTOHSCROLL
+END
+
+IDD_ADDPOINT DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加一个点"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,36,73,50,14
+    PUSHBUTTON      "取消",IDCANCEL,103,73,50,14
+    EDITTEXT        IDC_X,33,33,40,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y,93,32,47,15,ES_AUTOHSCROLL
+    LTEXT           "x",IDC_STATIC,43,17,8,8
+    LTEXT           "y",IDC_STATIC,102,18,8,8
+END
+
+IDD_ADDLINES DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加一条线!"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,42,73,50,14
+    PUSHBUTTON      "取消",IDCANCEL,107,73,50,14
+    EDITTEXT        IDC_X1,67,21,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y1,120,21,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_X2,67,46,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y2,120,46,40,14,ES_AUTOHSCROLL
+    LTEXT           "起点",IDC_STATIC,23,25,17,8
+    LTEXT           "终点",IDC_STATIC,22,48,17,8
+END
+
+IDD_ADDPOLYGON DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加一个多边形!"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,42,73,50,14
+    PUSHBUTTON      "取消",IDCANCEL,108,73,50,14
+    EDITTEXT        IDC_X,68,24,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y,121,24,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "继续添加",IDC_CONTINUE,100,50,50,14
+    LTEXT           "添加多边形的一个点",IDC_STATIC,13,14,46,21
+    LTEXT           "x",IDC_STATIC,77,14,8,8
+    LTEXT           "y",IDC_STATIC,128,15,8,8
+END
+
+IDD_ADDCIRCLE DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加一个圆"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,42,73,50,14
+    PUSHBUTTON      "取消",IDCANCEL,110,73,50,14
+    EDITTEXT        IDC_X1,62,22,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y1,110,22,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_X2,62,46,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y2,110,46,31,12,ES_AUTOHSCROLL
+    LTEXT           "left",IDC_STATIC,71,13,11,8
+    LTEXT           "top",IDC_STATIC,120,13,11,8
+    LTEXT           "Bottom",IDC_STATIC,117,38,24,8
+    LTEXT           "Right",IDC_STATIC,68,38,18,8
+END
+
+IDD_HELPBOX DIALOG DISCARDABLE  0, 0, 229, 149
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "使用帮助"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,42,128,50,14
+    PUSHBUTTON      "取消",IDCANCEL,108,128,50,14
+    LTEXT           "绘图模式可以在Mode菜单中选择。颜色和线条宽度等均可设置，也可以自行设置图形坐标进行绘图。",
+                    IDC_STATIC,34,14,137,26
+    LTEXT           "特别注意： 绘制多边形时，请按住左键不放拖动鼠标，在拖动的过程中不松开左键的同时点鼠标右键，每点一次可确定一个多边形的顶点。",
+                    IDC_STATIC,17,40,190,25
+    LTEXT           "在输入坐标的情况下，点击“取消(Cancel)""可以取消   本程序使用矢量绘图，每一个点，每一条线均保存在程序中，可以随意改变，不同于Windows 的画图程序! PS:按下Enter后，画多边形将使用填充模式，按下space可恢复",
+                    IDC_STATIC,17,67,184,43
+    LTEXT           "Made By wysaid",IDC_STATIC,135,110,55,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_COLORBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+        HORZGUIDE, 41
+        HORZGUIDE, 44
+        HORZGUIDE, 53
+    END
+
+    IDD_DEFAULTWIDTH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 157
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 49
+    END
+
+    IDD_ADDPOINT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_ADDLINES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_ADDPOLYGON, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_ADDCIRCLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        VERTGUIDE, 62
+        VERTGUIDE, 92
+        VERTGUIDE, 110
+        VERTGUIDE, 141
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+        HORZGUIDE, 21
+        HORZGUIDE, 33
+        HORZGUIDE, 36
+        HORZGUIDE, 46
+        HORZGUIDE, 58
+    END
+
+    IDD_HELPBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 142
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_XY                  ICON    DISCARDABLE     "OGLPaint.ICO"
+IDI_SMALL               ICON    DISCARDABLE     "SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_XY MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Clear",                       IDM_CLEAR
+        MENUITEM "Save",                        IDM_SAVE
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "AddObject"
+    BEGIN
+        MENUITEM "AddPoint",                    IDM_ADDPOINT
+        MENUITEM "AddLine",                     IDM_ADDLINE
+        MENUITEM "AddPolygon",                  IDM_ADDPOLYGON
+        MENUITEM "AddCircle",                   IDM_ADDCIRCLE
+    END
+    POPUP "Mode"
+    BEGIN
+        MENUITEM "Pencil",                      IDM_PENCIL
+        MENUITEM "Points",                      IDM_POINTS
+        MENUITEM "Lines",                       IDM_LINES
+        MENUITEM "Polygon",                     IDM_Polygon
+        MENUITEM "Circle",                      IDM_CIRCLE
+    END
+    POPUP "Undo"
+    BEGIN
+        MENUITEM "Delete last point",           IDM_DELETEPOINT
+        MENUITEM "Delete last line",            IDM_DELETELINE
+        MENUITEM "Delete last polygon or circle or pencil line", 
+                                                IDM_DELETEOTHER
+    END
+    MENUITEM "Color",                       IDM_COLOR
+    MENUITEM "Width(Size)",                 IDM_SIZEBOX
+    MENUITEM "Help",                        IDM_HELP
+END
+
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
