@@ -51,7 +51,7 @@ BOOL FileSaveDlg (HWND hwnd, PTSTR pstrFileName, PTSTR pstrTitleName)
 void translateBitMapPixel(DWORD* &pixels, int width, int height)
 {
 	DWORD *tmp = new DWORD[height*width];
-	//上下反转+颜色反转
+	//涓婁笅鍙嶈浆+棰滆壊鍙嶈浆
 	for(int i = 0; i != height; ++i)
 	{
 		int h = (height - i - 1) * width;

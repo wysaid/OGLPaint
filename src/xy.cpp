@@ -469,10 +469,10 @@ LRESULT CALLBACK addPolygonBox(HWND hDlg, UINT message, WPARAM wParam, LPARAM lP
 			{
 				Point pnt(atof(x),g_clientRect.bottom - atof(y));
 				p->add(pnt, g_defColor,g_defSize);
-				TextOut(GetDC(hDlg),10,90,x,sprintf(x,"µÚ%d¸öµãÌí¼Ó³É¹¦!",++cnt));
+				TextOut(GetDC(hDlg),10,90,x,sprintf(x,"ç¬¬%dä¸ªç‚¹æ·»åŠ æˆåŠŸ!",++cnt));
 			}
 			else
-				TextOut(GetDC(hDlg),10,90,x,sprintf(x,"ÊäÈëÄÚÈİ²»ÄÜÎª¿Õ!"));
+				TextOut(GetDC(hDlg),10,90,x,sprintf(x,"è¾“å…¥å†…å®¹ä¸èƒ½ä¸ºç©º!"));
 		}
 		else if(LOWORD(wParam) == IDOK)
 		{
@@ -487,7 +487,7 @@ LRESULT CALLBACK addPolygonBox(HWND hDlg, UINT message, WPARAM wParam, LPARAM lP
 			}
 			else
 			{
-				TextOut(GetDC(hDlg),10,90,x,sprintf(x,"ÊäÈëÄÚÈİ²»ÄÜÎª¿Õ!"));
+				TextOut(GetDC(hDlg),10,90,x,sprintf(x,"è¾“å…¥å†…å®¹ä¸èƒ½ä¸ºç©º!"));
 				break;
 			}
 			InvalidateRect(g_hwnd, NULL, false);

@@ -10,7 +10,7 @@
 
 #define PI	3.14159265
 #define PI2	PI*2
-//当前绘制模式
+//褰撳墠缁樺埗妯″紡
 enum MODE {modePENCIL, modePOINTS, modeLINES, modePOLYGON, modeCIRCLE};
 
 struct Point
