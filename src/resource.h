@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Developer Studio generated include file.
-// Used by xy.rc
+// Used by OGLPaint.rc
 //
 #define IDC_MYICON                      2
 #define IDD_XY_DIALOG                   102

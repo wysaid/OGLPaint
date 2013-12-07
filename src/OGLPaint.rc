@@ -268,7 +268,7 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_XY                  ICON    DISCARDABLE     "xy.ICO"
+IDI_XY                  ICON    DISCARDABLE     "OGLPaint.ICO"
 IDI_SMALL               ICON    DISCARDABLE     "SMALL.ICO"
 
 /////////////////////////////////////////////////////////////////////////////

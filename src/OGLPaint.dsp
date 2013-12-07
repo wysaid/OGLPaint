@@ -8,17 +8,17 @@ CFG=xy - Win32 Debug
 !MESSAGE This is not a valid makefile. To build this project using NMAKE,
 !MESSAGE use the Export Makefile command and run
 !MESSAGE 
-!MESSAGE NMAKE /f "xy.mak".
+!MESSAGE NMAKE /f "OGLPaint.mak".
 !MESSAGE 
 !MESSAGE You can specify a configuration when running NMAKE
 !MESSAGE by defining the macro CFG on the command line. For example:
 !MESSAGE 
-!MESSAGE NMAKE /f "xy.mak" CFG="xy - Win32 Debug"
+!MESSAGE NMAKE /f "OGLPaint.mak" CFG="OGLPaint - Win32 Debug"
 !MESSAGE 
 !MESSAGE Possible choices for configuration are:
 !MESSAGE 
-!MESSAGE "xy - Win32 Release" (based on "Win32 (x86) Application")
-!MESSAGE "xy - Win32 Debug" (based on "Win32 (x86) Application")
+!MESSAGE "OGLPaint - Win32 Release" (based on "Win32 (x86) Application")
+!MESSAGE "OGLPaint - Win32 Debug" (based on "Win32 (x86) Application")
 !MESSAGE 
 
 # Begin Project
@@ -29,7 +29,7 @@ CPP=cl.exe
 MTL=midl.exe
 RSC=rc.exe
 
-!IF  "$(CFG)" == "xy - Win32 Release"
+!IF  "$(CFG)" == "OGLPaint - Win32 Release"
 
 # PROP BASE Use_MFC 0
 # PROP BASE Use_Debug_Libraries 0
@@ -54,7 +54,7 @@ LINK32=link.exe
 # ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /machine:I386
 # ADD LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /machine:I386
 
-!ELSEIF  "$(CFG)" == "xy - Win32 Debug"
+!ELSEIF  "$(CFG)" == "OGLPaint - Win32 Debug"
 
 # PROP BASE Use_MFC 0
 # PROP BASE Use_Debug_Libraries 1
@@ -83,8 +83,8 @@ LINK32=link.exe
 
 # Begin Target
 
-# Name "xy - Win32 Release"
-# Name "xy - Win32 Debug"
+# Name "OGLPaint - Win32 Release"
+# Name "OGLPaint - Win32 Debug"
 # Begin Group "Source Files"
 
 # PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
@@ -99,11 +99,11 @@ SOURCE=.\StdAfx.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\xy.cpp
+SOURCE=.\OGLPaint.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\xy.rc
+SOURCE=.\OGLPaint.rc
 # End Source File
 # End Group
 # Begin Group "Header Files"
@@ -119,7 +119,7 @@ SOURCE=.\StdAfx.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\xy.h
+SOURCE=.\OGLPaint.h
 # End Source File
 # End Group
 # Begin Group "Resource Files"
@@ -131,7 +131,7 @@ SOURCE=.\small.ico
 # End Source File
 # Begin Source File
 
-SOURCE=.\xy.ico
+SOURCE=.\OGLPaint.ico
 # End Source File
 # End Group
 # Begin Source File

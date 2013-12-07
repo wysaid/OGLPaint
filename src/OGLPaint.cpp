@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "resource.h"
-#include "xy.h"
+#include "OGLPaint.h"
 #define MAX_LOADSTRING 100
 
 HINSTANCE hInst;					

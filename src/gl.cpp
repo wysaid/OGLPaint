@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "xy.h"
+#include "OGLPaint.h"
 extern HWND		g_hwnd;
 extern HDC			g_hdc;
 extern HGLRC		g_hRC;	
