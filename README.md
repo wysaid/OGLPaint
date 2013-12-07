@@ -5,7 +5,7 @@
 <p>由于本代码是本人很久以前写的，所以项目为vc6.0工程，使用任意微软的IDE打开dsw工程文件即可。仅支持Windows</p>
 <p><b><i>The code is so old that is using vc6.0 solution. You can use any IDE which supports Windows API to open it.</i></b></p>
 
-<p> 由于Github会自动修改换行格式，所以导致vc6.0工程无法打开。请使用目录下的sln解决方案。此方案为vs2012版。你也可以使用Notepad++等工具将dsw和dsp文件换行格式转换为PC格式之后再用vc6.0打开 </p>
+<p> 如果直接下载zip文件的话，Github会自动修改换行格式，所以可能导致vc6.0工程无法打开。请使用目录下的sln解决方案。此方案为vs2012版。你也可以使用Notepad++等工具将dsw和dsp文件换行格式转换为PC格式之后再用vc6.0打开 </p>
 
 <h4><b><i>If you cannot open the project with the ".dsw" file, try the ".sln" one with VS2012 instead.</i></b><h4>
 
