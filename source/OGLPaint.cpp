@@ -117,7 +117,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
-	static isKeydown = false;
+	static int isKeydown = false;
 	int wmId, wmEvent;
 /*	int tempX,tempY;*/
 	switch (message) 

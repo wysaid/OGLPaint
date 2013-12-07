@@ -26,13 +26,13 @@
 // Local Header Files
 #include <GL/gl.h>
 #include <GL/glu.h>
-#include <gl/glaux.h>
+//#include <gl/glaux.h>
 #include <vector>
 using std::vector;
 
 #pragma comment( lib, "opengl32.lib" )	
 #pragma comment( lib, "glu32.lib" )		
-#pragma comment( lib, "glaux.lib" )	
+//#pragma comment( lib, "glaux.lib" )	
 //{{AFX_INSERT_LOCATION}}
 // Microsoft Visual C++ will insert additional declarations immediately before the previous line.
 
