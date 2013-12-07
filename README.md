@@ -8,7 +8,14 @@
 <h3> How To Use </h3>
 <pre>
 You can see the functions in the menu.
+But the <b>Polygon Mode</b> is special.
+When you using polygon mode, keep the left button of your mouse down, 
+and move your mouse, the graph would be seen as a line. Now you can click the 
+right button of your mouse to set the vertex of the polygon. The process would 
+end when you release your left button of your mouse.
+
+Since it is only for study, the fill mode is not set. You can add some fill mode to the code, then rebuild it by yourself.
 </pre>
 
 <h2>ShortCut</h2>
-
+<p><img src="https://raw.github.com/wysaid/OGLPaint/master/shortcut.jpg"></p>
