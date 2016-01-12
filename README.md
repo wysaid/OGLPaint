@@ -13,8 +13,8 @@
 <pre>
 You can see the functions in the menu.
 But the <b>Polygon Mode</b> is special.
-When you using polygon mode, keep the left button of your mouse down, 
-and move your mouse, the graph would be seen as a line. Now you can click the 
+When you're using polygon mode, please keep the left button of your mouse down, 
+then move your mouse. The graph would be seen as a line. Now you can click the 
 right button of your mouse to set the vertex of the polygon. The process would 
 end when you release your left button of your mouse.
 
